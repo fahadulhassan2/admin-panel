@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+    
+      p{
+        font-weight: 500;
+     }
+     .backcolor{
+         background-color: #03a9f4 ;
+       }
+       .navbar{
+         
+        background-color: #333 !important;
+     }
+     .logo{
+         width: 2.5rem;
+         height: 2rem;
+     }
+     .btn ,input{
+       box-shadow: none !important;
+       border: none !important;
+     }
+     select{
+       box-shadow: none !important;
+     }
+     input{
+         border: 2px solid #03a9f4 !important;
+     }
+ ::placeholder{
+     color: #2a505c !important;
+ }    
+.table{
+    background-color: #91d9f9 !important;
+}
+.form-bg{
+    background-color: #ffffff !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.dropdown-item:hover{
+    background-color: #03a9f4 !important;
+    color: #ffffff !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+.suggestion-para{
+    border-top: 1px solid #03a9f4 !important
+}
+
+
+.loginContainer{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.desk{
+    width: 10rem;
+    height: 10rem;
+}
+
+.btn-success{
+background-color: #333 !important;
+color: #ffffff !important;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  } 
+  
+  ::-webkit-scrollbar-thumb {
+    background: #03a9f4;
+    border-radius: 10px;
   }
-  to {
-    transform: rotate(360deg);
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #03a9f4; 
   }
-}

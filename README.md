@@ -1,4 +1,6 @@
 # Admin Panel
+## Deployed Link
+https://admin-panel-eight-ochre.vercel.app/
 ## Page # 1
 ![image](https://user-images.githubusercontent.com/54173716/218168939-aa001296-e364-4552-b9d0-ac40aece8954.png)
 ## Page # 2
